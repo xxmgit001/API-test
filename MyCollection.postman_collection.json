@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "7b99b956-e78d-4be8-a5fc-ba9d5c6dbd7f",
+		"name": "MyCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28771862"
+	},
+	"item": [
+		{
+			"name": "Postman-echo.com/get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Charset",
+						"value": "application/atom+xml",
+						"type": "text"
+					},
+					{
+						"key": "user",
+						"value": "Tom",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {}
+				},
+				"url": {
+					"raw": "Postman-echo.com/get?mobile=user&type=1&name=%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96",
+					"host": [
+						"Postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "mobile",
+							"value": "user"
+						},
+						{
+							"key": "type",
+							"value": "1"
+						},
+						{
+							"key": "name",
+							"value": "%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96"
+						}
+					]
+				},
+				"description": "Test"
+			},
+			"response": []
+		}
+	]
+}
